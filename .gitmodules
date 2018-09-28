@@ -1,0 +1,3 @@
+[submodule "jib-build/spring-cloud-gcp"]
+	path = jib-build/spring-cloud-gcp
+	url = git@github.com:rgregg/spring-cloud-gcp.git

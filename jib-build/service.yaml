@@ -22,15 +22,15 @@ spec:
       build:
         source:
           git:
-            url: https://github.com/mchmarny/spring-cloud-gcp.git
-            revision: s1p-demo
+            url: https://github.com/rgregg/spring-cloud-gcp.git
+            revision: rg-demo
         template:
           name: jib-maven
           arguments:
           - name: DIRECTORY
             value: spring-cloud-gcp-samples/spring-cloud-gcp-vision-api-sample
           - name: IMAGE
-            value: &image us.gcr.io/s9-demo/vision:1.5.6
+            value: &image us.gcr.io/ryangregg-knative-demo/vision:2.0.1
           - name: CACHE
             value: persistent-cache
         volumes:
