@@ -23,4 +23,4 @@ spec:
     name: v1 # Adding a new named route for v1
   - revisionName: blue-green-00002
     percent: 100
-    # Named route for v2 has been removed, since we don't need it anymore
+    name: v2 
